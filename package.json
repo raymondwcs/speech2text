@@ -1,0 +1,16 @@
+{
+	"name": "speech2text",
+	"description": "IBM Cloud Speech to Text",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "latest",
+		"express-fileupload": "latest",
+		"body-parser": "latest",
+		"ejs": "latest",
+		"node-fetch": "latest"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engine": "10.0.0"
+}
