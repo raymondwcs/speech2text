@@ -12,7 +12,7 @@ curl -X POST -u "apikey:{apikey}" \
 "{url}/v1/recognize"
 */
 
-/* curl -u "apikey:{apikey" */
+/* curl -u "apikey:{apikey}" */
 var base64encodedData = Buffer.from(`apikey:${APIKEY}`).toString('base64');
 
 var options = {
