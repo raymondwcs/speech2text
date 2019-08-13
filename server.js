@@ -13,6 +13,8 @@ curl -X POST -u "apikey:{apikey}" \
 */
 
 /* curl -u "apikey:{apikey}" */
+/* Expects the following in the POST/GET header */
+/* 'Authorization' : 'Basic <base64 encoded apikey:{apikey} */
 var base64encodedData = Buffer.from(`apikey:${APIKEY}`).toString('base64');
 
 var options = {
@@ -21,8 +23,8 @@ var options = {
     path: 'speech-to-text/api/v1/recognize',
     method: 'POST',
     headers: {
-    	 'Content-Type': 'audio/flac', 
-       'Authorization': `Basic ${base64encodedData}`
+    	'Content-Type': 'audio/flac', 
+	'Authorization': `Basic ${base64encodedData}`
     },
     json: true 
 };
