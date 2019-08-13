@@ -1,4 +1,4 @@
-# COMPS381F - IBM Speech to Text Cloud Service[Reference]
+# COMPS381F - IBM Speech to Text Cloud Service [Reference]
 
 1. Go to the page below to learn more about IBM Cloud Speech to Text Cloud Service
 ```
